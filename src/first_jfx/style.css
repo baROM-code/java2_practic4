@@ -1,0 +1,25 @@
+.root{
+    -fx-background-image:  url("https://www.zastavki.com/pictures/originals/2015/Backgrounds_Binary_code__blue_background_102848_.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-control-inner-background: transparent;
+    -fx-font-weight: bold;
+}
+.text-field{
+    -fx-control-inner-background: #035ea4;
+}
+.button {
+    -fx-background-color: #91f103;
+}
+.button:hover {
+    -fx-background-color: #06d068;
+}
+
+.text-area {
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
