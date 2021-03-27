@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="first_jfx.Controller">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+    <TextArea fx:id="textArea1" editable="false" focusTraversable="false" VBox.vgrow="ALWAYS"/>
+    <HBox>
+    <TextField fx:id="textField1" onAction="#clickBtnSend" HBox.hgrow="ALWAYS" />
+    <Button alignment="CENTER_RIGHT" onAction="#clickBtnSend" text="Отправить" />
+    </HBox>
+</VBox>
